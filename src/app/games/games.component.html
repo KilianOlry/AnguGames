@@ -1,1 +1,31 @@
-<div class="w-32 h-32 bg-green"></div>
+<!-- component -->
+<div class="p-24 flex flex-wrap items-center justify-center">
+
+    <div *ngFor="let game of games"
+        class="flex-shrink-0 m-6 relative overflow-hidden bgdar rounded-lg max-w-xs shadow-lg hover:scale-105">
+        <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+            style="transform: scale(1.5); opacity: 0.1;">
+            <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+            <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+        </svg>
+        <div class="relative p-1 flex justify-center">
+            <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+            </div>
+            <img class="relative w-full h-full rounded-sm" src="{{game.imageUrl}}" alt="">
+        </div>
+        <div class="relative text-white px-6 pb-6 mt-6">
+            <div class="flex justify-between">
+                <span class="block font-semibold text-xl">{{game.name}}</span>
+                <span class="bg-white rounded-full text-teal-500 px-2 py-2 flex items-center w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                            fill="rgba(70,235,174,1)">
+                        </path>
+                    </svg></span>
+            </div>
+        </div>
+    </div>
+
+</div>
