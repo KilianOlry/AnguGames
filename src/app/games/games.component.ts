@@ -11,26 +11,23 @@ export class GamesComponent {
     {
       name: 'God Of War Ragnarok',
       lien: '',
-      imageUrl:
-        'https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-listing-thumb-01-09sep21$en?$1200px$',
+      imageUrl: 'assets/images/Games_psn/God_of War.jpg',
     },
-    // {
-    //   name: 'Horizon Forbidden West',
-    //   lien: '',
-    //   imageUrl:
-    //     'https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-store-art-01-01apr21$en?$1200px$',
-    // },
+    {
+      name: 'Horizon Forbidden West',
+      lien: '',
+      imageUrl: 'assets/images/Games_psn/Horizon_Forbidden_West.jpg',
+    },
     {
       name: 'The Last of Us',
       lien: '',
       imageUrl:
-        'https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-keyart-01-en-18may22?$1200px$',
+        'assets/images/Games_psn/the-last-of-us-remake-part-1-walkthrough.jpg',
     },
     {
       name: 'Gran Tursimo',
       lien: '',
-      imageUrl:
-        'https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-packshot-01-en-09sep21?$1200px$',
+      imageUrl: 'assets/images/Games_psn/Gran Turismo.jpg',
     },
     {
       name: 'Star Wars Jedi Fallen Order',
